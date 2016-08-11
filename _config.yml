@@ -1,14 +1,26 @@
-layout_spectrum: 1
-typography_spectrum: 0.9455569
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.06272402
 color:
-  lightness: 1
-  brandStrength: 0.4930886
-  saturation: 1
-  rhythmicContrast: 0.9418023
+  saturation: 0.5322581
+  brandStrength: 1
+  lightness: 0.3888889
   brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
+    - '#E4E8F1'
+    - '#595458'
+    - '#A5A29B'
+    - '#870006'
+    - '#0C171D'
+  rhythmicContrast: 0.5681003
+layout_spectrum: 0
 name: Themixxmasters
